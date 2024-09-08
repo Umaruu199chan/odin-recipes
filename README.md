@@ -15,7 +15,7 @@ This project aims to create a simple HTML page featuring a collection of recipes
 
 ---
 ## Demo 
- Check out the live demo of the project here: https://umaruu199chan.github.io/odin-recipes
+ Check out the live demo of the project here: [Sample Output Here](https://umaruu199chan.github.io/odin-recipes)
 
 ## Preview
 
