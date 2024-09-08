@@ -14,6 +14,8 @@ This project aims to create a simple HTML page featuring a collection of recipes
 - Enhance understanding of HTML document structure.
 
 ---
+## Demo 
+ [Demo Project](https://umaruu199chan.github.io/odin-recipes)
 
 ## Preview
 
