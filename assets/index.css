@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.links li, a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+nav .links li {
+    background-color: #ffffff;
+    border-right: solid black 1px;
+}
+nav .links {
+    font-size: 1.1em;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    margin: auto 0;
+    text-align: end;
+    border-bottom: solid 1px black;
+}
+nav .links a:hover {
+    text-decoration: underline;
+}
+
+
+/* Start of the dropdown menu */
+
+nav .dropdown {
+    position: relative;
+    display: inline-block;
+}
+nav .dropdown-content {
+    display: none;
+    border-radius: 5px;
+    position: absolute;
+    background-color: #9e9e9e;
+    min-width: 150px;
+    z-index: 1;
+    text-align: left;
+}
+
+/* Dropdown links style */
+nav .dropdown-content a {
+    display: block;
+    padding: 12px 16px;
+    color: black;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+/* End of DropDown */
+
+body {
+    height: 100vh;
+    background-image: url('/assets/pexels-pixabay-257794.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section .container {
+    color: white;
+}
+
+
