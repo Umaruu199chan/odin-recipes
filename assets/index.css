@@ -45,8 +45,6 @@ nav .dropdown-content {
     z-index: 1;
     text-align: left;
 }
-
-/* Dropdown links style */
 nav .dropdown-content a {
     display: block;
     padding: 12px 16px;
@@ -59,14 +57,43 @@ nav .dropdown:hover .dropdown-content {
 }
 /* End of DropDown */
 
-body {
-    height: 100vh;
-    background-image: url('/assets/pexels-pixabay-257794.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+/* Start of Homepage */
+body{
+    background-color: #e9e8e5;
 }
-section .container {
-    color: white;
+section h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 3%;
+}
+.container {
+    display:flex;
+    margin:0 5% 0 5%;
+    justify-content: space-between;
+}
+.content {
+    text-align: start;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content p,h2 {
+    margin-bottom: 2%;
+    width: 450px;
 }
 
+.aside{
+    border: solid 1px gray;
+    margin-right: 7%;
+    background-color: #f1f1f1;
+    width: 350px;
+    height: 400px;
+}
+.aside .img1{
+    padding: 0px 2px 0px 30px;
+}
+.img1 {
+    display: flex;
+    margin-bottom: 2%;
+    text-align: center;
+}
 
